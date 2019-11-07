@@ -2,7 +2,7 @@
   "name": "relocator-front",
   "version": "1.0.0",
   "description": "A Vue.js front-end app for a Ruby on Rails API backend app.",
-  "author": "Andy Leverenz <andy@web-crunch.com>",
+  "author": "Marat Galiev <kazanlug@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
