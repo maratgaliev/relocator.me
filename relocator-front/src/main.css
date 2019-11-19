@@ -9,7 +9,7 @@
  *
  * @import "tailwindcss/preflight";
  */
-@tailwind preflight;
+@tailwind base;
 
 /**
  * This injects any component classes registered by plugins.
@@ -35,7 +35,7 @@
  * @import "components/buttons";
  * @import "components/forms";
  */
-
+/* 
 .input {
   @apply appearance-none block w-full bg-grey-lighter text-grey-darker border border-grey-lighter rounded py-3 px-4 leading-tight;
 }
@@ -68,7 +68,7 @@
 
 .link-grey:hover {
   @apply text-grey-darker;
-}
+} */
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your

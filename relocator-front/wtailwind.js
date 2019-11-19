@@ -24,7 +24,7 @@ View the full documentation at https://tailwindcss.com.
 |
 */
 
-let defaultConfig = require('tailwindcss/defaultConfig')()
+let defaultConfig = require('tailwindcss/defaultConfig')
 
 
 /*
@@ -952,15 +952,14 @@ module.exports = {
   | the plugin system works.
   |
   */
-
+  theme: {
+    container: {
+      center: true,
+      padding: '2.2rem'
+    },
+  },
   plugins: [
-    require('tailwindcss/plugins/container')({
-      // center: true,
-      // padding: '1rem',
-    }),
   ],
-
-
   /*
   |-----------------------------------------------------------------------------
   | Advanced Options         https://tailwindcss.com/docs/configuration#options
